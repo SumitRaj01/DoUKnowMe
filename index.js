@@ -16,16 +16,39 @@ function play(question, answer) {
 
 var questions = [
   {
-    question: "Where Do I live? ",
+    question: `Where Do I live?
+  a: Bengaluru
+  b: Delhi
+  c: Gurgaon `,
     answer: "Gurgaon",
   },
   {
-    question: "Where Do I work? ",
-    answer: "On myself",
+    question: `Where Do I work? 
+  a: Apple
+  b: Google
+  c: Currently on myself `,
+    answer: "currently On myself",
   },
   {
-    question: "What Do I like to do in my spare time? ",
+    question: `What Do I like to do in my spare time? 
+  a: Reading
+  b: Binge watching
+  c: Mindlessly scrolling `,
     answer: "Reading",
+  },
+  {
+    question: `Which one is my favourite band out of these?
+    a: Coldplay
+    b: BTS
+    c: Imagine Dragons `,
+    answer: "Coldplay",
+  },
+  {
+    question: `My favourite Dish? 
+    a: Chole Bhature
+    b: Idli Sambhar
+    c: Dosa `,
+    answer: "Chole bhature",
   },
 ];
 for (let i = 0; i < questions.length; i++) {
